@@ -52,4 +52,4 @@ while essais_restants > 0:
         break
 
 if essais_restants == 0:
-    print("Il n'y a plus d'essais. Le mot à trouver était :", mot_a_deviner)
+    print("perdu!! Il n'y a plus d'essais. Le mot à trouver était :", mot_a_deviner)
