@@ -37,7 +37,7 @@ while essais_restants > 0:
     if lettre in lettres_trouvees:
         print("Cette lettre est la bonne. Continuez, trouvez en d'autres.")
     elif lettre in mot_a_deviner:
-        print("Bonne devinette !")
+        print("Bien joué !")
         lettres_trouvees.append(lettre)
     else:
         print("La lettre n'est pas dans le mot.")
