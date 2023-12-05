@@ -29,7 +29,7 @@ while essais_restants > 0:
 
    
     if not est_lettre_valide(lettre):
-        print("Veuillez entrer une seule lettre valide.")
+        print("Une lettre à la fois s'il vous plait.")
         continue
 
     
