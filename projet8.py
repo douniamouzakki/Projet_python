@@ -1,7 +1,7 @@
 import random
 
 def choisir_mot():
-    mots = ["pendu", "anaconda", "maison", "voyage", "jeu", "fauteuil","quinoa","television","molengeek","soleil","cocotier","palmier"]
+    mots = ["pendu", "anaconda", "maison", "voyage", "jeu", "quinoa","television","molengeek","soleil","cocotier","palmier"]
     return random.choice(mots)
 
 def afficher_mot_cache(mot, lettres_trouvees):
